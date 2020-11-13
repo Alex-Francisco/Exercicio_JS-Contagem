@@ -4,20 +4,20 @@ function contar() {
     var passoCont = parseInt(document.getElementById('passoCont').value)
     var divCont = document.getElementById('contagem')
     var divBgNum = document.createElement('div')
-    divBgNum.classList.add('teste')
+    divBgNum.classList.add('bgNum')
     var btnContar = document.getElementById('btnContar')
 
     console.log(iniCont.length)
 
-    if (document.getElementById('iniCont').value == "" || document.getElementById('fimCont').value == "" || passoCont == 0) {
-        window.alert('ERRO!')
+    if (document.getElementById('iniCont').value == "" || document.getElementById('fimCont').value == "" || passoCont <= 0) {
+        window.alert('ERRO! \nVerifique se o campo início ou final da contagem está vazio \nOu \nVerifique se o campo passo foi preenchido com 0')
     } else {
         if (document.getElementById('passoCont').value == "") {
             passoCont = 1
         }
-        if ($('.teste')[0]) {
+        if ($('.bgNum')[0]) {
             document.location.reload()
-            document.getElementsByClassName('teste').remove()
+            document.getElementsByClassName('bgNum').remove()
             document.location.reload()
         } else {
             if (iniCont < fimCont) {
