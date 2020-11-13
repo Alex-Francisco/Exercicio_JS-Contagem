@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap');
+
 body, html {
     height: 100%;
     background: #363636;
@@ -5,4 +7,21 @@ body, html {
 
 #caixa {
     background: #fff;
+    padding: 20px;
 }
+
+.bg-num {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    background: #3d3d3d;
+    padding: 20px;
+    color: #fff;
+    font-size: 2.7em;
+    border-radius: 5px;
+    margin: 2px;
+    height: 85px;
+    text-align: center;
+    justify-content: center;
+    line-height: 45px;
+    }
+
+    
