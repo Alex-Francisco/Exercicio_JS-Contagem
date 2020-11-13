@@ -5,10 +5,17 @@ function contar() {
     var divCont = document.getElementById('contagem')
     var divBgNum = document.createElement('div')
 
+    if(iniCont.length == 0 || fimCont.length == 0 || passoCont.length == 0) {
+        window.alert('ERRO!')
+    }
+     
     while (iniCont <= fimCont) {
-        divCont.appendChild(divBgNum)          
-        
+        divBgNum.innerHTML = iniCont
+        divCont.appendChild(divBgNum.cloneNode(true))
+        divBgNum.innerHTML = '&#8618;'
+        divCont.appendChild(divBgNum.cloneNode(true))   
         iniCont += passoCont
-    }  
-    divBgNum.innerHTML += iniCont
+    }
+    divCont.appendChild(divBgNum.cloneNode(true))  
+    divBgNum.innerHTML = '>'
 }
