@@ -1,18 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 body, html {
     height: 100%;
-    background: #363636;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(60,60,60,1) 0%, rgba(34,34,34,1) 35%, rgba(0,0,0,1) 100%);
 }
 
 #caixa {
     background: #fff;
-    padding: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+hr {
+    height: 1px;
+    background: #e5e5e5;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em;
+    margin-top: 5px;
 }
 
 .bg-num {
     font-family: 'Big Shoulders Stencil Text', cursive;
-    background: #3d3d3d;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 35%, rgba(60,60,60,1) 100%);
     padding: 20px;
     color: #fff;
     font-size: 2.7em;
