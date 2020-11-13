@@ -12,10 +12,11 @@ function contar() {
     while (iniCont <= fimCont) {
         divBgNum.innerHTML = iniCont
         divCont.appendChild(divBgNum.cloneNode(true))
-        divBgNum.innerHTML = '&#8618;'
+        divBgNum.innerHTML = '>'
         divCont.appendChild(divBgNum.cloneNode(true))   
         iniCont += passoCont
     }
+    divBgNum.innerHTML = '&#127937'
     divCont.appendChild(divBgNum.cloneNode(true))  
-    divBgNum.innerHTML = '>'
+    
 }
