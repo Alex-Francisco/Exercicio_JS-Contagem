@@ -39,6 +39,9 @@ function contar() {
             } 
             divBgNum.innerHTML = '&#127937'
             divCont.appendChild(divBgNum.cloneNode(true))
+            document.getElementById('iniCont').disabled = true
+            document.getElementById('fimCont').disabled = true
+            document.getElementById('passoCont').disabled = true
             btnContar.innerText = 'Limpar para inserir novo  valores'
         }
     }
