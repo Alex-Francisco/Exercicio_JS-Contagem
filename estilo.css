@@ -18,18 +18,13 @@ h1 {
     font-family: 'Rubik', sans-serif;
 }
 
-hr {
-    height: 1px;
-    background: #e5e5e5;
-}
-
 p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3em;
     margin-top: 5px;
 }
 
-.bg-num {
+#contagem > div {
     font-family: 'Big Shoulders Stencil Text', cursive;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 35%, rgba(60,60,60,1) 100%);
