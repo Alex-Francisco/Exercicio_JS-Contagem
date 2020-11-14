@@ -24,7 +24,7 @@ p {
     margin-top: 5px;
 }
 
-#contagem > div {
+.bgNum {
     font-family: 'Big Shoulders Stencil Text', cursive;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 35%, rgba(60,60,60,1) 100%);
