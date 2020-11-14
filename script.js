@@ -24,7 +24,7 @@ function contar() {
                 while (iniCont <= fimCont) {
                     divBgNum.innerHTML = iniCont
                     divCont.appendChild(divBgNum.cloneNode(true))
-                    divBgNum.innerHTML = '>'
+                    divBgNum.innerHTML = '&#8618;'
                     divCont.appendChild(divBgNum.cloneNode(true))   
                     iniCont += passoCont
                 }
@@ -32,7 +32,7 @@ function contar() {
                 while (iniCont >= fimCont) {
                     divBgNum.innerHTML = iniCont
                     divCont.appendChild(divBgNum.cloneNode(true))
-                    divBgNum.innerHTML = '>'
+                    divBgNum.innerHTML = '&#8618;'
                     divCont.appendChild(divBgNum.cloneNode(true))   
                     iniCont -= passoCont
                 }
